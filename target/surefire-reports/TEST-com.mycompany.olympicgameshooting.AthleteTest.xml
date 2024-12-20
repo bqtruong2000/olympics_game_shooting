@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.olympicgameshooting.AthleteTest" time="0.127" tests="98" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Repositories\HSU\software_testing\FinalProject\OlympicGameShooting\target\test-classes;C:\Repositories\HSU\software_testing\FinalProject\OlympicGameShooting\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+07:00"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire8674717218417858829\surefirebooter-20241212201409805_3.jar C:\Users\Admin\AppData\Local\Temp\surefire8674717218417858829 2024-12-12T20-14-09_640-jvmRun1 surefire-20241212201409805_1tmp surefire_0-20241212201409805_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.mycompany.olympicgameshooting.AthleteTest"/>
+    <property name="surefire.test.class.path" value="C:\Repositories\HSU\software_testing\FinalProject\OlympicGameShooting\target\test-classes;C:\Repositories\HSU\software_testing\FinalProject\OlympicGameShooting\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Repositories\HSU\software_testing\FinalProject\OlympicGameShooting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire8674717218417858829\surefirebooter-20241212201409805_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="Chun"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-22\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Repositories\HSU\software_testing\FinalProject\OlympicGameShooting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\MongoDB Tool\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\go\bin;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testSetInvalidWorldRanking" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.022"/>
+  <testcase name="testGetQualificationScore" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.003"/>
+  <testcase name="testGetQualificationShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetQualificationScoreWithMultipleMixedShotsAndZero" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testToStringWithEmptyLastName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetQualificationScoreWithMultipleMinShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetCountryToNeutralAthletesBelarus" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetNegativeRankingScore" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.002"/>
+  <testcase name="testGetTotalScoreWithMultipleMinShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetFirstName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddQualificationShot" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFullName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.004"/>
+  <testcase name="testAddShot" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetCountryToEmptyString" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddFinalShotWithMaxValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFinalScoreWithMinShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetInvalidRankingScore" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFinalScoreWithMultipleMixedShotsAndNegative" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetAthleteID" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetTotalScoreWithMultipleMixedShotsAndNegative" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetTotalScoreWithZeroShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetInvalidFirstName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetCountry" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testToString" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddQualificationShotWithZeroValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetTotalScoreWithMinShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetTotalScoreWithMultipleMixedShotsAndZero" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetFullNameWithEmptyFirstName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddQualificationShotWithMaxValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testEmptyFinalShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testAddQualificationShotWithNegativeValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFullNameWithMiddleName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetTotalScoreWithMultipleMixedShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetCountryToNeutralAthletes" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetQualificationScoreWithMaxShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetCountryToWhitespace" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddShotWithNegativeValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFullNameWithEmptyLastName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetFinalScoreWithMultipleMixedShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetQualificationScoreWithEdgeValues" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetInvalidAthleteIDShortLength" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFinalScore" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFinalShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetFirstNameToWhitespace" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetInvalidAthleteIDLongLength" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testAddExcessiveQualificationShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetLastName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFinalScoreWithMultipleMinShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testAddShotWithZeroValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetLastName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetWorldRanking" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetQualificationScoreWithMultipleMaxShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testInvalidFinalShotValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetQualificationScoreWithMultipleMixedShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetTotalScoreWithMultipleMaxShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetFinalScoreWithMultipleMixedShotsAndZero" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testConstructorInitializesFields" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetInvalidLastName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddFinalShotWithZeroValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetAthleteID" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetFinalScoreWithMaxShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testInvalidShotValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testEmptyQualificationShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetQualificationScoreWithMultipleMixedShotsAndNegative" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetFinalShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFinalScoreWithMultipleShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetFinalScoreWithNegativeShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testToStringWithUpdatedScores" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddFinalShotWithNegativeValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetQualificationShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetRankingScore" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testToStringWithEmptyFirstName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetTotalScoreWithMaxShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddShotWithMaxValue" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetInvalidAthleteID" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetTotalScore" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetWorldRanking" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetFinalScoreWithZeroShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetRankingScoreToZero" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetFirstName" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddFinalShot" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetCountry" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetLastNameToWhitespace" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetQualificationScoreWithZeroShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetInvalidCountry" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetWorldRankingToZero" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetRankingScore" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetFinalScoreWithMultipleMaxShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetTotalScoreWithMultipleShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetTotalScoreWithNegativeShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetQualificationScoreWithMultipleShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testGetQualificationScoreWithNegativeShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testGetQualificationScoreWithMinShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testAddMoreThan60QualificationShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetNegativeWorldRanking" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+  <testcase name="testSetShots" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.0"/>
+  <testcase name="testSetCountryToNonNeutral" classname="com.mycompany.olympicgameshooting.AthleteTest" time="0.001"/>
+</testsuite>
